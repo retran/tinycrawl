@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Dungeon/tiles.png" type="Texture" id=1]
+
+
+
+[node name="Tiles" type="Node2D"]
+
+[node name="Wall" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 8, 8 )
+
+[node name="Floor" type="Sprite" parent="."]
+position = Vector2( 8.31093, 0.175585 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 8, 0, 8, 8 )
+
+[node name="Chest" type="Sprite" parent="."]
+position = Vector2( 17.2071, 0.292641 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 16, 0, 8, 8 )
